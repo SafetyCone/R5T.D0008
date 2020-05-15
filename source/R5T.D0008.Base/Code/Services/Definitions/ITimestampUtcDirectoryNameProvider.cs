@@ -6,6 +6,6 @@ namespace R5T.D0008
 {
     public interface ITimestampUtcDirectoryNameProvider
     {
-        Task<string> GetTimestampUtcDirectoryName(DateTime timestampUtc);
+        Task<string> GetTimestampUtcDirectoryNameAsync(DateTime timestampUtc);
     }
 }

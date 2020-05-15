@@ -8,7 +8,7 @@ namespace R5T.D0008.Default
 {
     public class TimestampUtcDirectoryNameProvider : ITimestampUtcDirectoryNameProvider
     {
-        public Task<string> GetTimestampUtcDirectoryName(DateTime timestampUtc)
+        public Task<string> GetTimestampUtcDirectoryNameAsync(DateTime timestampUtc)
         {
             var timestampUtcDirectoryName = timestampUtc.ToYYYYMMDD_HHMMSS();
 
