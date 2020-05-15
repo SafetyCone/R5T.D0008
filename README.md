@@ -1,0 +1,2 @@
+# R5T.D0008
+A stringly-typed ITimestampUtcDirectoryNameProvider service library.
