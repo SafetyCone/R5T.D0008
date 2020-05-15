@@ -1,0 +1,4 @@
+R5T.D0008 - A Base definitions library for the stringly-typed ITimestampUtcDirectoryNameProvider service.
+
+Goals
+
